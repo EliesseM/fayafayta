@@ -233,3 +233,30 @@ footer p {
     flex-direction: column;
   }
 }
+
+@media (max-width: 500px) {
+  section#lastNews {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  section#allNews {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  section#Galerie {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  section#connection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .container,
+  .container2 {
+    flex-direction: column;
+  }
+}
